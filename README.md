@@ -22,5 +22,3 @@ Este projeto é um sistema simples de login, cadastro e gerenciamento de usuári
 
 ## Autor
 Lucas Costa
-
-![Tela de registros](![registros](https://github.com/user-attachments/assets/c07e7eec-f37a-4153-ac83-49952cb811d6))
