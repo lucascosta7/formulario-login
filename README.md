@@ -1,5 +1,4 @@
-# Formulário de Login e Cadastro
-
+# Sistema de Login, Cadastro e Consulta de dados.
 Este projeto é um sistema simples de login, cadastro e gerenciamento de usuários, desenvolvido com PHP, MySQL e Bootstrap.
 
 ## Funcionalidades
