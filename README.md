@@ -23,4 +23,4 @@ Este projeto é um sistema simples de login, cadastro e gerenciamento de usuári
 ## Autor
 Lucas Costa
 
-![Tela de registros](img/registros.png)
+![Tela de registros](img/formulario.png)
