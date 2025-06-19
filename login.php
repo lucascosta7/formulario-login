@@ -13,6 +13,10 @@
         }
         div{
             background-color: rgba(0, 0, 0, 0.5);
+            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.6);
             position: absolute;
             top: 50%;
             left: 50%;
@@ -29,6 +33,7 @@
         }
         .inputSubmit{
             background-color: black;
+            background-color: dodgerblue;
             border: none;
             padding: 15px;
             width: 100%;
@@ -42,6 +47,7 @@
         }
         h1{
             text-align: center;
+            background-color: deepskyblue;
         }
     </style>
 </head>
