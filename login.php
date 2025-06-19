@@ -9,14 +9,10 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right,	#000000, #808080);
+            background: linear-gradient(to right,	#000000, rgb(87, 87, 87));
         }
         div{
-            background-color: rgba(0, 0, 0, 0.5);
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
-        }
-        div{
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.4);
             position: absolute;
             top: 50%;
             left: 50%;
@@ -27,32 +23,31 @@
         }
         input{
             padding: 15px;
-            border: none;
+            border: 3px;
             outline: none;
             font-size: 15px;
         }
         .inputSubmit{
-            background-color: black;
-            background-color: dodgerblue;
-            border: none;
+            border: 3px solid white;
             padding: 15px;
             width: 100%;
             border-radius: 10px;
             color: white;
             font-size: 15px;
             cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.0);
         }
         .inputSubmit:hover{
-            background-color: #808080;
+            background-color: white;
+            color: black;
         }
         h1{
             text-align: center;
-            background-color: deepskyblue;
         }
     </style>
 </head>
 <body>
-    <a class="btn btn-md btn-primary ms-2" href="home.php" role="button">
+    <a class="btn btn-md btn-dark ms-2" href="home.php" role="button">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
         </svg>

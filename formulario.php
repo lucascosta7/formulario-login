@@ -47,7 +47,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background: linear-gradient(to right,	#000000, rgb(87, 87, 87));
         }
 
         .box{
@@ -55,20 +55,18 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.4);
             padding: 15px;
             border-radius: 15px;
             width: 20%;
             color: white;
         }
         fieldset{
-            border: 3px solid dodgerblue;
+            border: 3px solid white;
         }
         legend{
-            border: 1px solid dodgerblue;
             padding:10px;
             text-align: center;
-            background-color: dodgerblue;
             border-radius: 8px;
         }
         .inputBox{
@@ -94,7 +92,7 @@
         .inputUser:valid ~ .labelInput{
             top: -20px;
             font-size: 12px;
-            color: dodgerblue;
+            color: #808080;
         }
         #data_nascimento{
             border: none;
@@ -104,7 +102,7 @@
             font-size: 15px;
         }
         #submit{
-            background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+            background-image: linear-gradient(to right,	#000000,rgb(51, 51, 51));
             width: 100%;
             border: none;
             padding: 15px;
@@ -114,12 +112,12 @@
             border-radius: 10px;
         }
         #submit:hover{
-            background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+            background-image: linear-gradient(to right, #000000);
         }
     </style>
 </head>
 <body>
-    <a class="btn btn-md btn-primary ms-2" href="home.php" role="button">
+    <a class="btn btn-md btn-dark ms-2" href="home.php" role="button">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
         </svg>
@@ -128,7 +126,7 @@
         <form action="formulario.php" method="POST">
             <fieldset>
                 <legend><b>Formulário de Clientes</b> </legend>
-                <br><br><br>
+                <br><br>
             <div class="inputbox">
                 <input type="text" name="nome" id="nome" class="inputUser" required>
                 <label for="nome" class="labelInput">Nome Completo</label>
